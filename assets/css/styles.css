@@ -37,7 +37,6 @@
 
 #me-img {
   border-radius: 150px;
-  height: 300px;
   margin: 0px 30px;
   transition: all 0.5s;
 }
@@ -48,7 +47,7 @@
 #name {
   color: white;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 #role {
@@ -59,7 +58,7 @@
 #social-media {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 60px;
+  margin-top: 2rem;
 }
 
 #social-media svg {
@@ -79,6 +78,7 @@
 .typewriter {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .cursor {
@@ -88,6 +88,27 @@
 
 .red {
   color: #960000;
+}
+
+.skills {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills ul:nth-child(1) {
+  text-align: end;
+}
+.skills ul:nth-child(2) {
+  text-align: start;
+}
+.transparent {
+  opacity: 0.2;
 }
 
 @keyframes blink {
